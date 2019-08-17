@@ -1,0 +1,17 @@
+pipeline {
+	agent any
+	options {
+		parallelAlwaysFailFast()
+	}
+	
+	stages{
+		stage(
+			steps{
+				echo "My first pipeline"
+			}
+			
+		)
+
+
+	}
+}
